@@ -4,20 +4,6 @@ from flask import Flask
 
 from flample.extensions import db
 from flample.utils import register_blueprints
-from wtforms_sqlalchemy import fields
-
-"""
-There is a bug in wtform fields and this function is a fix for it.
-Before it gets merged, we will need to patch this function ourself.
-"""
-
-
-def patched_get_pk_from_identity(obj):
-    cls, key, token = fields.identity_key(instance=obj)
-    return ":".join(str(x) for x in key)
-
-
-fields.get_pk_from_identity = patched_get_pk_from_identity
 
 
 def create_app(
