@@ -15,9 +15,8 @@ No major Frontend Framework used due to shortage of time just basic jquery. Dash
 
 Functional tests are added for testing all the endpoints. I am using 
 
-1. Nose
-2. Mock
-3. Factory boy
+1. Pytest
+2. Factory boy
 
 ## Development Environment
 
@@ -49,9 +48,7 @@ The following assumes you have all of the recommended tools listed above install
 
 #### 4. Run tests:
     
-    $ nosetests -vv --collect-only (To see where exactly nose is looking for testcases. It won't run the tests if the file is executable)
-    $ chmod -x $(find tests/ -name '*.py')  - (To make your testcase files not executable. This command is tested on MAC only)
-    $ nosetests -v
+    $ pytest -v
 
 #### 5. Run the server:
 
