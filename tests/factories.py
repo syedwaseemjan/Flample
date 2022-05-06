@@ -24,7 +24,7 @@ class AdminFactory(BaseFactory):
         model = Admin
 
     email = Sequence(lambda n: "user{0}@flample.com".format(n))
-    _password = LazyAttribute(lambda a: bcrypt.encrypt("password"))
+    _password = LazyAttribute(lambda a: bcrypt.hash("password"))
     active = True
 
 

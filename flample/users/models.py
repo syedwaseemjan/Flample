@@ -23,7 +23,7 @@ class Admin(UserJsonSerializer, UserMixin, db.Model):
 
     @password.setter
     def password(self, value):
-        self._password = bcrypt.encrypt(value)
+        self._password = bcrypt.hash(value)
 
     def match_password(self, value):
         return bcrypt.verify(value, self._password)
