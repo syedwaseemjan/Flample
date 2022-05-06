@@ -1,6 +1,6 @@
-![Flake8](https://github.com/syedwaseemjan/Flample/actions/workflows/flake8.yaml/badge.svg)
-![Black](https://github.com/syedwaseemjan/Flample/actions/workflows/black.yaml/badge.svg)
-![Tests](https://github.com/syedwaseemjan/Flample/actions/workflows/tests.yaml/badge.svg)
+[![Flake8 Actions Status](https://github.com/syedwaseemjan/Flample/actions/workflows/flake8.yaml/badge.svg)](https://github.com/syedwaseemjan/Flample/actions/workflows/flake8.yaml)
+[![Black Actions Status](https://github.com/syedwaseemjan/Flample/actions/workflows/black.yaml/badge.svg)](https://github.com/syedwaseemjan/Flample/actions/workflows/black.yaml)
+[![Tests Actions Status](https://github.com/syedwaseemjan/Flample/actions/workflows/tests.yaml/badge.svg)](https://github.com/syedwaseemjan/Flample/actions/workflows/tests.yaml)
 
 
 # Flample
