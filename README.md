@@ -1,5 +1,5 @@
 # Flample
-Flample is a Python Flask Sample Restful Api.
+Flample is a Python Flask Sample Restful API.
 
 ## Concept
 
@@ -9,11 +9,11 @@ Sqlite DB is used for storing data. Sqlalchemy is used to help with the queries.
 2. Frontend
 
 Restful API is used for CRUD operations. Frontend application is used for serving static files(CSS, JS, HTML) and is also responsible for routing as I have not used any frontend routing solution.
-All api endpoints are hidden behind authentication. Currently using cookies based session and authentication. So the API can be tested in browser easily for now. Can easily switch to Token based authentication (Will do it when have time).
+All API endpoints are hidden behind authentication. Currently using cookies based session and authentication and API can be tested in browser easily for now. We can easily switch to Token based authentication (Will do it when have time).
 
-No major Frontend Framework used due to shortage of time just basic jquery. Dashboard.js is reponsible for doing all ajax requests to API.
+No major frontend framework used due to shortage of time, just basic jquery. Dashboard.js is reponsible for doing all ajax requests to the backend API.
 
-Functional tests are added for testing all the endpoints. I am using 
+On the backend, functional tests are added for testing all the endpoints. I am using 
 
 1. Pytest
 2. Factory boy
