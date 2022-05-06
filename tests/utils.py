@@ -32,7 +32,7 @@ class FlaskTestCaseMixin(object):
         expires = (datetime.now() + timedelta(minutes=30)).strftime("%Y%m%d%H%M%S")
         csrf_build = "%s%s" % (csrf_key, expires)
         csrf_token = csrf_build.encode("utf8")
-        csrf_hmac = hmac.new(bytes(secret_key, 'latin-1'), csrf_token, digestmod=sha1)
+        csrf_hmac = hmac.new(bytes(secret_key, "latin-1"), csrf_token, digestmod=sha1)
         self.csrf_token = "%s##%s" % (expires, csrf_hmac.hexdigest())
 
     def _html_data(self, kwargs):
