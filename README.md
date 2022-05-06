@@ -1,6 +1,7 @@
-![Flake8](https://github.com/syedwaseemjan/Flample/actions/workflows/flake8/badge.svg)
-![Black](https://github.com/syedwaseemjan/Flample/actions/workflows/black/badge.svg)
-![Tests](https://github.com/syedwaseemjan/Flample/actions/workflows/tests/badge.svg)
+![Flake8](https://github.com/syedwaseemjan/Flample/actions/workflows/flake8.yaml/badge.svg)
+![Black](https://github.com/syedwaseemjan/Flample/actions/workflows/black.yaml/badge.svg)
+![Tests](https://github.com/syedwaseemjan/Flample/actions/workflows/tests.yaml/badge.svg)
+
 
 # Flample
 Flample is a Python Flask Sample Restful API.
