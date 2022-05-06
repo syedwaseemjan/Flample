@@ -2,4 +2,4 @@
 .webassets-cache
 flample.db
 test_flample.db-journal
-*.min.css
+.DS_Store
