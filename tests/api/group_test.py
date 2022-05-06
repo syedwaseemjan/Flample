@@ -27,7 +27,7 @@ class GroupApiTestCase(FlampleApiTestCase):
     def test_create_group(self):
         r = self.jpost("/groups", data={"name": "My Group"})
         self.assertOkJson(r)
-        self.assertIn(b'"name":"My Group"', r.data)
+        self.assertIn(b'"wasname":"My Group"', r.data)
 
     def test_create_invalid_group(self):
         r = self.jpost("/groups", data={"name": ""})
