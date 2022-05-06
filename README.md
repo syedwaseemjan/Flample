@@ -59,3 +59,21 @@ The following assumes you have all of the recommended tools listed above install
     Visit http://127.0.0.1:5000
     Username: admin@flample.com
     Password: test123
+
+
+### Helpful Commands
+
+There are a few commands to help you out with the task of keeping your code compliant
+with BriteLines standards:
+
+1. Run `black` and `flake8` checkers:
+
+```
+$ flake8
+```
+
+2. Fix all the code style and import order issues:
+
+```
+$ black --check .
+```
