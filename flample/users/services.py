@@ -1,5 +1,5 @@
 from flample.extensions import Service
-from flample.models import Person, Address, Email, Phone
+from flample.models import Address, Email, Person, Phone
 
 
 class PersonsService(Service):

@@ -1,6 +1,6 @@
+from flample.exceptions import FlampleError
 from flample.extensions import Service
 from flample.models import Group
-from flample.exceptions import FlampleError
 
 
 class GroupsService(Service):

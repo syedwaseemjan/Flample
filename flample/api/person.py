@@ -1,8 +1,9 @@
 from flask import Blueprint, request
+
 from flample.api import route
-from flample.services import _persons
-from flample.exceptions import FlampleFormError, FlampleError
+from flample.exceptions import FlampleError, FlampleFormError
 from flample.forms import NewPersonForm, UpdatePersonForm
+from flample.services import _persons
 
 bp = Blueprint("person", __name__, url_prefix="/persons")
 

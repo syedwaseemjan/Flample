@@ -1,8 +1,9 @@
 from flask import Blueprint, request
+
 from flample.api import route
-from flample.services import _groups, _persons
 from flample.exceptions import FlampleFormError
 from flample.forms import NewGroupForm, UpdateGroupForm
+from flample.services import _groups, _persons
 
 bp = Blueprint("groups", __name__, url_prefix="/groups")
 

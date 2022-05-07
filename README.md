@@ -66,6 +66,19 @@ The following assumes you have all of the recommended tools listed above install
     Password: test123
 
 
+## Best Practices
+
+Flample employs automated checkers to make sure that all contributions follow basic conventions.
+
+- [`black`](https://github.com/python/black): to check the code style.
+- [`flake8`](https://pypi.org/project/flake8/): to check for PEP-8, McCabe
+  complexity, [`isort`](https://pypi.org/project/isort/) violations,
+  [pyflakes](https://pypi.org/project/pyflakes/) checks (such as unused
+  imports/variables, etc).
+
+Any pull request that violates any of these convention will fail and must
+be fixed before asking for a code review.
+
 ### Helpful Commands
 
 There are a few commands to help you out with the task of keeping your code compliant

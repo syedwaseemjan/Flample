@@ -8,11 +8,12 @@
 from functools import wraps
 
 from flask import jsonify
-from flample.models import Admin
-from flample.exceptions import FlampleError, FlampleFormError
-from flample.utils import JSONEncoder
+from flask_login import LoginManager, login_required
+
 from flample import factory
-from flask_login import login_required, LoginManager
+from flample.exceptions import FlampleError, FlampleFormError
+from flample.models import Admin
+from flample.utils import JSONEncoder
 
 login_manager = LoginManager()
 

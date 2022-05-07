@@ -5,8 +5,8 @@
     flample utils module
 """
 
-import pkgutil
 import importlib
+import pkgutil
 
 from flask import Blueprint
 from flask.json import JSONEncoder as BaseJSONEncoder

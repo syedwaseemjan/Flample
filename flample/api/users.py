@@ -1,5 +1,6 @@
-from flask import Blueprint, redirect, jsonify
+from flask import Blueprint, jsonify, redirect
 from flask_login import login_user
+
 from flample.decorators import logout_required
 from flample.forms import LoginForm
 

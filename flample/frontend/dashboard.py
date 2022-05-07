@@ -1,5 +1,6 @@
-from flask import Blueprint, render_template, redirect, flash, url_for, request
+from flask import Blueprint, flash, redirect, render_template, request, url_for
 from flask_login import current_user, login_required, login_user, logout_user
+
 from flample.decorators import logout_required
 from flample.forms import LoginForm
 

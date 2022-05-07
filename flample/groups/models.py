@@ -1,7 +1,6 @@
 from flample.extensions import db
 from flample.utils import JsonSerializer
 
-
 users_groups = db.Table(
     "persons_groups",
     db.Column("person_id", db.Integer, db.ForeignKey("persons.id")),

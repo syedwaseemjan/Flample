@@ -7,12 +7,10 @@
 
 import base64
 import hmac
-
 from datetime import datetime, timedelta
 from hashlib import sha1
 
 import simplejson as json
-
 from werkzeug.http import parse_cookie
 
 

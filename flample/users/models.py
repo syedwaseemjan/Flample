@@ -1,6 +1,7 @@
 from flask_login import UserMixin
 from passlib.hash import bcrypt
 from sqlalchemy.ext.hybrid import hybrid_property
+
 from flample.extensions import db
 from flample.utils import JsonSerializer
 

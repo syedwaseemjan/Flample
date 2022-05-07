@@ -5,8 +5,7 @@
     frontend application asset "pipeline"
 """
 
-from flask_assets import Environment, Bundle
-
+from flask_assets import Bundle, Environment
 
 #: consolidated css bundle
 css_all = Bundle(

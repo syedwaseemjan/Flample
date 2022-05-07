@@ -5,8 +5,8 @@
     flample wsgi module
 """
 
-from werkzeug.serving import run_simple
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.serving import run_simple
 
 from flample import api, frontend
 

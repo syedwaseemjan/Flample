@@ -1,16 +1,12 @@
 from flask_wtf import FlaskForm
+from wtforms import BooleanField, FieldList
+from wtforms import Form as WTForm
+from wtforms import FormField, HiddenField, PasswordField
 from wtforms.fields import StringField
-from wtforms import (
-    Form as WTForm,
-    PasswordField,
-    BooleanField,
-    FieldList,
-    HiddenField,
-    FormField,
-)
 from wtforms.validators import DataRequired, Length, Optional
-from flample.models import Admin, Group
 from wtforms_sqlalchemy.fields import QuerySelectField
+
+from flample.models import Admin, Group
 
 __all__ = ["LoginForm", "NewPersonForm", "UpdatePersonForm"]
 

@@ -6,12 +6,12 @@
 """
 
 
-from factory import Sequence, LazyAttribute
+from factory import LazyAttribute, Sequence
 from factory.alchemy import SQLAlchemyModelFactory
 from passlib.hash import bcrypt
 
 from flample.extensions import db
-from flample.models import *
+from flample.models import Address, Admin, Email, Group, Person, Phone
 
 
 class BaseFactory(SQLAlchemyModelFactory):

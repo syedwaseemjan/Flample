@@ -8,10 +8,11 @@
 from functools import wraps
 
 from flask import render_template
-from flample.models import Admin
+from flask_login import LoginManager, login_required
+
 from flample import factory
 from flample.frontend import assets
-from flask_login import login_required, LoginManager
+from flample.models import Admin
 
 login_manager = LoginManager()
 

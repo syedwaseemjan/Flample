@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
-from flample.forms import NewGroupForm
 
+from flample.forms import NewGroupForm
 
 bp = Blueprint("groups", __name__)
 

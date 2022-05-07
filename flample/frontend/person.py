@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template
+
 from flample.forms import NewPersonForm
 
 bp = Blueprint("persons", __name__)
