@@ -79,6 +79,22 @@ Flample employs automated checkers to make sure that all contributions follow ba
 Any pull request that violates any of these convention will fail and must
 be fixed before asking for a code review.
 
+
+### Setting up commit hooks
+
+In order to avoid submitting failing PRs, **make sure** to install pre-commit
+hooks configured in this repo by running:
+
+```
+$ pip install pre-commit
+$ pre-commit install
+```
+
+Now, every time you try to commit your code `black` will automatically reformat it, `isort` will
+automatically sort your imports and `flake8` will look for and report any common issues found on
+the code you are trying to commit.
+
+
 ### Helpful Commands
 
 There are a few commands to help you out with the task of keeping your code compliant
