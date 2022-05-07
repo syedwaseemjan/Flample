@@ -5,8 +5,13 @@
     api person tests module
 """
 
-from ..factories import (AddressFactory, EmailFactory, GroupFactory,
-                         PersonFactory, PhoneFactory)
+from ..factories import (
+    AddressFactory,
+    EmailFactory,
+    GroupFactory,
+    PersonFactory,
+    PhoneFactory,
+)
 from . import FlampleApiTestCase
 
 
